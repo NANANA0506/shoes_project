@@ -44,19 +44,19 @@
 | ---- | --------------- | ------------------ | -------------- | -------- |
 | 1    | /               | main.pug           | 김태민         |          |
 | 2    | /product        | product.pug        | 김태민, 오동건 |          |
-| 3    | /product/detail | detail.pug         | 김태민, 오동건 | 개발현황 |
-| 4    | /signup         | signup.pug         | 김태민, 오동건 | 개발현황 |
-| 5    | /signin         | signin.pug         | 김정우, 오동건 | 개발현황 |
-| 6    | /deleteuser     | deleteuser.pug     | 김태민, 오동건 | 개발현황 |
-| 7    | /userinfo       | userinfo.pug       | 김태민, 오동건 | 개발현황 |
-| 8    | /userinfoupdate | userinfoupdate.pug | 김태민, 오동건 | 개발현황 |
-| 9    | /review         | review.pug         | 김태민, 오동건 | 개발현황 |
-| 10   | /review/write   | reviewwrite.pug    | 김태민, 오동건 | 개발현황 |
-| 11   | /review/update  | reviewupdate.pug   | 김태민, 오동건 | 개발현황 |
-| 12   | /notice         | notice.pug         | 김태민, 오동건 | 개발현황 |
-| 13   | /notice/write   | noticewrite.pug    | 김태민, 오동건 | 개발현황 |
-| 14   | /notice/update  | noticeupdate.pug   | 김태민, 오동건 | 개발현황 |
-| 15   | /like           | like.pug           | 김태민, 오동건 | 개발현황 |
+| 3    | /product/detail | detail.pug         | 김태민, 오동건 |          |
+| 4    | /signup         | signup.pug         | 김태민, 오동건 |          |
+| 5    | /signin         | signin.pug         | 김정우, 오동건 |          |
+| 6    | /deleteuser     | deleteuser.pug     | 김태민, 오동건 |          |
+| 7    | /userinfo       | userinfo.pug       | 김태민, 오동건 |          |
+| 8    | /userinfoupdate | userinfoupdate.pug | 김태민, 오동건 |          |
+| 9    | /review         | review.pug         | 김태민, 오동건 |          |
+| 10   | /review/write   | reviewwrite.pug    | 김태민, 오동건 |          |
+| 11   | /review/update  | reviewupdate.pug   | 김태민, 오동건 |          |
+| 12   | /notice         | notice.pug         | 김태민, 오동건 |          |
+| 13   | /notice/write   | noticewrite.pug    | 김태민, 오동건 |          |
+| 14   | /notice/update  | noticeupdate.pug   | 김태민, 오동건 |          |
+| 15   | /like           | like.pug           | 김태민, 오동건 |          |
 
 ## 기능정의
 
