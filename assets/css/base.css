@@ -17,8 +17,6 @@
 .header {
   width: 100%;
   height: 130px;
-
-  background-color: bisque;
 }
 
 .header a {
@@ -34,6 +32,10 @@
   width: 100%;
   height: 15%;
   background-color: pink;
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: #0f044c;
 }
 
 .top__header a {
@@ -41,6 +43,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  color: white;
 
   font-size: 10px;
 
@@ -51,28 +54,14 @@
   margin-left: 10px;
 }
 
-.header p {
-  color: gray;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-
-  margin: 0px 25px;
-  padding: 7px;
-
-  transition: 0.7s;
-}
-
-.header a:hover {
-  color: rgb(43, 43, 43);
-}
-
 .bottom__header {
   width: 100%;
   height: 85%;
 
   display: flex;
   flex-direction: row;
+
+  background-color: #eeeeee;
 
   font-size: 18px;
 }
@@ -95,16 +84,25 @@
 
 .logo {
   width: 120px;
-  height: 130px;
+  height: 120px;
 
-  background-color: rgb(251, 255, 0);
+  background-color: #787a91;
+  border-radius: 100%;
 
-  margin-left: 120px;
+  margin-top: 3px;
 }
 
-.logo .a {
-  display: table-cell;
-  vertical-align: middle;
+.logo a {
+  text-align: center;
+  align-items: center;
+
+  padding: 3px;
+
+  font-family: "Eulyoo1945-SemiBold";
+}
+
+.empty1 {
+  width: 10%;
 }
 
 .search {
@@ -154,12 +152,10 @@
 
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
 
   text-decoration: none;
   color: #000000;
-
-  float: right;
 
   background-color: transparent;
   border-radius: 50%;
@@ -171,6 +167,7 @@
   width: 0px;
 
   display: flex;
+  align-items: center;
 
   background: none;
 
@@ -198,6 +195,7 @@
   align-items: center;
 
   margin-top: 4px;
+  margin-left: 15px;
 
   font-family: "SANGJUGyeongcheonIsland";
 }
@@ -213,4 +211,8 @@
 
   font-family: "SANGJUGyeongcheonIsland";
   justify-content: flex-end;
+}
+
+.empty {
+  width: 25%;
 }
