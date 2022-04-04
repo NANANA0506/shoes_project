@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "/assets")));
 
 app.use("/", globalRouter);
+app.use("/product", globalRouter);
 
 app.listen(PORT, () => {
   console.log(`⭐️👟https://localhost:${PORT} ✨SERVER START💻🍀`);
