@@ -1,4 +1,5 @@
 const express = require("express");
+const res = require("express/lib/response");
 const checkLogin = require("../middlewares/checkLogin");
 
 const router = express.Router();
@@ -8,6 +9,10 @@ router.get("/", (req, res, next) => {
 
   console.log(req.session);
   res.render("main", { loggedIn });
+});
+
+router.get("/home", (req, res, next) => {
+  res.render("home");
 });
 
 router.get("/product", (req, res, next) => {

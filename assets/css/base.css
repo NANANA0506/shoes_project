@@ -14,207 +14,79 @@
   font-style: normal;
 }
 
-.header {
-  width: 100%;
-  height: 130px;
+@font-face {
+  font-family: '국립박물관문화재단클래식B';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.header a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-weight: lighter;
-
-  transition: 0.7s;
-  overflow: hidden;
-}
-
-.top__header {
-  width: 100%;
-  height: 15%;
-  background-color: pink;
-  display: flex;
-  justify-content: flex-end;
-
-  background-color: #0f044c;
-}
-
-.top__header a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  color: white;
-
-  font-size: 10px;
-
-  padding: 3px;
-
-  font-family: "Eulyoo1945-SemiBold";
-
-  margin-left: 10px;
-}
-
-.bottom__header {
-  width: 100%;
-  height: 85%;
-
-  display: flex;
-  flex-direction: row;
-
-  background-color: #eeeeee;
-
-  font-size: 18px;
-}
-
-.bottom__header .logo a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.bottom__header .keyword a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  float: left;
-
-  margin-left: 15px;
-}
-
-.logo {
-  width: 100px;
-  height: 100px;
-
-  background-color: #787a91;
-  border-radius: 100%;
-
-  margin-top: 4.5px;
-}
-
-.logo a {
+header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/564x/7e/72/63/7e726385d9987da261948196d8e319e5.jpg");
   text-align: center;
-  align-items: center;
-
-  font-family: "Eulyoo1945-SemiBold";
-
-  padding: 2px;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
 }
 
-.empty1 {
-  width: 10%;
+header .mainheader {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
 }
 
-.search {
-  width: 3%;
-  height: 30px;
+.mainheader h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  color: #fff;
+}
+
+.mainheader h3,
+.mainheader p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.mainheader button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #333;
+  background: #fff;
+  margin-bottom: 50px;
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.top {
+  width: 100%;
+  height: 200px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background-color: transparent;
-}
-.search-box {
-  width: 3px;
-  height: 3px;
-
-  color: #000000;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  margin-top: 97px;
-  justify-content: space-between;
-  position: absolute;
-
-  padding: 10px;
-  transform: translate(-50%, -50%);
-
-  border: 2px solid #ffffff;
-  border-radius: 30px;
-
-  transition: 0.4s;
-}
-.search-box:hover {
-  width: 100px;
-
-  background-color: white;
-
-  box-shadow: 0px 0px 0.5px 1px #ffffff;
-}
-.search-btn {
-  width: 30px;
-  height: 30px;
-
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-
-  text-decoration: none;
-  color: #000000;
-
-  background-color: transparent;
-  border-radius: 50%;
-}
-.search-box:hover > .search-btn {
-  color: #3b3b3b;
-}
-.search-txt {
-  width: 0px;
-
-  display: flex;
-  align-items: center;
-
-  background: none;
-
-  padding: 0;
-
-  border: none;
-
-  outline: none;
-  float: left;
-  text-align: center;
-  font-size: 13px;
-  line-height: 15px;
-  transition: 0.4s;
-}
-.search-box:hover > .search-txt {
-  width: 100px;
-  padding: 6px;
 }
 
-.keyword {
-  width: 40%;
-  height: 85%;
+.top {
+  font-size: 25px;
 
-  display: flex;
-  align-items: center;
-
-  margin-top: 4px;
-  margin-left: 15px;
-
-  font-family: "SANGJUGyeongcheonIsland";
-}
-
-.like {
-  width: 40px;
-  height: 85%;
-
-  display: flex;
-  align-items: center;
-  margin-top: 4px;
-  float: right;
-
-  font-family: "SANGJUGyeongcheonIsland";
-  justify-content: flex-end;
-}
-
-.empty {
-  width: 25%;
+  font-family: '국립박물관문화재단클래식B';
 }
 
 .footer {

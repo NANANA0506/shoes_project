@@ -21,7 +21,9 @@ app.use(
 );
 
 app.use("/", globalRouter);
+app.use("/home", globalRouter);
 app.use("/product", globalRouter);
+app.use("/sigin", globalRouter);
 
 app.listen(PORT, () => {
   console.log(`⭐️👟https://localhost:${PORT} ✨SERVER START💻🍀`);
